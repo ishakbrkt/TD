@@ -1,0 +1,30 @@
+:root{
+    --main-transition:.6s;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width:1200px;
+    gap: 15px;
+}
+.container img{
+    width: 120px;
+    height: 580px;
+    border-radius: 50px;
+    transition: var(--main-transition);
+ box-shadow: 0px 0px 20px -8px black;
+}
+img.active{
+    width: 600px;
+}
